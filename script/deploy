@@ -1,7 +1,8 @@
 #!/bin/sh
 cd /var/lib/jenkins/workspace/node_ap
 git pull origin master
-npm install — production
+npm install - production
+sudo npm install pm2@latest -g
 npm install n -g
 sudo n latest
 pm2 restart all
