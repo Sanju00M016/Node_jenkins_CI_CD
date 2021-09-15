@@ -6,6 +6,6 @@ describe('GET /', function() {
 
 
  //navigate to root and check the the response is "hello world"
- request(app).get('/').expect('hello world', done);
+ request(app).get('/').expect('I am learning DevOps', done);
  });
 });

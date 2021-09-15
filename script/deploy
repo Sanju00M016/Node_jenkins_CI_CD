@@ -1,6 +1,8 @@
 #!/bin/sh
 cd ~/node_ap
 git pull
+npm install n -g
+sudo n latest
 npm install — production
 pm2 restart all
 exit
